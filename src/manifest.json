@@ -1,0 +1,24 @@
+{
+  "name": "hexiaolong",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "author": "hexiaolong9822@163.com",
+  "description": "愿你走出半生，归来仍是少年",
+  "icons": {
+    "16": "assets/icons/hxl.png",
+    "48": "assets/icons/hxl.png",
+    "96": "assets/icons/hxl.png",
+    "128": "assets/icons/hxl.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["./background.js"]
+  },
+  "permissions": ["tabs", "activeTab", "storage", "notifications"],
+  "web_accessible_resources": ["element-icons.ttf", "element-icons.woff"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "browser_action": {
+    "default_popup": "./popup.html"
+  }
+}
