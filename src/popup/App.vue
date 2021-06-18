@@ -40,13 +40,13 @@
       <!-- 前端学院 -->
       <el-tab-pane
         lazy
-        label="Mr.He"
+        label="耿显子"
         name="tab-recommend"
       >
         <el-row>
             <el-col @click.native="handleTabClick">
                 <el-card :body-style="{ padding: '0px' }">
-                    <img src="@/assets/icons/logo.jpg" class="image">
+                    <img src="@/assets/icons/xianzi.jpg" class="image">
                     <div style="padding: 14px;">
                         <div class="bottom clearfix">
                             <el-button type="text" class="button">愿你走出半生，归来仍是少年</el-button>
